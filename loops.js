@@ -25,7 +25,7 @@ function doWhileLoop(array) {
     i = i + 1;
   }
     do {
-    array.slice(i);
+    array.pop(i);
     //remove elements until the array is empty or returns false
     } while (array.length > 0 && incrementVariable());
   return array;
