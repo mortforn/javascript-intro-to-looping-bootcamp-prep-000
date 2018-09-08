@@ -27,6 +27,6 @@ function doWhileLoop(array) {
     do {
     array.push(i);
     //remove elements until the array is empty or returns false
-    } while (array.length < 0 && incrementVariable());
+    } while (array.length <= 0 && incrementVariable());
   return array;
 }
